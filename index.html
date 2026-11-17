@@ -1,127 +1,101 @@
 <!doctype html>
-<!-- Type pack (grotesk or serif) is set once, in js/theme.js. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alex Morgan · Your field</title>
-<meta name="description" content="Academic homepage of Alex Morgan — your field, your institution.">
+<title>Ha Thu Nguyen · Psychology</title>
+<meta name="description" content="Academic homepage of Ha Thu Nguyen: psychology, family bonds, early experiences and mental health.">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Trim to the families your pack uses: grotesk = Archivo + IBM Plex Mono, serif = Fraunces + Archivo -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;800&family=IBM+Plex+Mono:wght@400;600&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap">
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/site.css">
 <script src="js/theme.js"></script>
+<script src="js/motion.js" defer></script>
 </head>
 <body>
-
 <nav class="nav" aria-label="Main">
-  <a href="about.html">About</a>
-  <a href="research.html">Research</a>
-  <a href="work.html">Work</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="work.html">Work</a>
 </nav>
-
 <main>
-  <!-- ============ HERO — edit these six things ============ -->
-  <header class="hero">
-    <!-- 1. Photo: replace the file, or delete this <figure> for a type-only hero -->
-    <figure class="portrait"><img src="images/portrait-placeholder.svg" alt="Portrait of Alex Morgan" width="300" height="300"></figure>
-    <!-- 2. Name -->
-    <h1>Dr. Alex Morgan</h1>
-    <!-- 3. Field · place -->
-    <p class="kicker">Your field · Your city</p>
-    <hr class="short-rule">
-    <!-- 4. One sentence. Wrap the part you want emphasised in <strong>. -->
-    <p class="statement">One sentence on the question you work on — <strong>and why it matters.</strong></p>
-    <!-- 5. Profile links -->
-    <ul class="profile-links">
-      <li><a href="https://scholar.google.com/">Scholar</a></li>
-      <li><a href="https://orcid.org/">ORCID</a></li>
-      <li><a href="https://github.com/">GitHub</a></li>
-      <li><a href="mailto:you@university.edu">Email</a></li>
-      <li><a href="files/cv.pdf">CV</a></li>
-    </ul>
-  </header>
-
-  <!-- ============ WHAT I WORK ON ============ -->
-  <section class="section" aria-labelledby="work-h">
-    <div class="wrap">
-      <div class="section-head">
-        <h2 id="work-h">What I work on</h2>
-        <hr class="short-rule">
-      </div>
-      <div class="cols3">
-        <article class="col">
-          <h3>Research area one</h3>
-          <p>One or two sentences on this area: the question you ask and why it matters.</p>
-          <div class="tags"><span class="tag">Method</span><span class="tag">Topic</span></div>
-        </article>
-        <article class="col">
-          <h3>Research area two</h3>
-          <p>One or two sentences on this area: the question you ask and why it matters.</p>
-          <div class="tags"><span class="tag">Method</span><span class="tag">Topic</span></div>
-        </article>
-        <article class="col">
-          <h3>Research area three</h3>
-          <p>One or two sentences on this area: the question you ask and why it matters.</p>
-          <div class="tags"><span class="tag">Method</span><span class="tag">Topic</span></div>
-        </article>
-      </div>
-      <p class="more"><a href="research.html">All research →</a></p>
-    </div>
-  </section>
-
-  <!-- ============ SELECTED WORK ============ -->
-  <section class="section tint" aria-labelledby="sel-h">
-    <div class="wrap">
-      <div class="section-head">
-        <h2 id="sel-h">Selected work</h2>
-        <hr class="short-rule">
-      </div>
-      <div class="entries">
-        <article class="entry">
-          <p class="when">2025 · Paper</p>
-          <h3><a href="work.html">Title of your most recent paper or best project</a></h3>
-          <p>Journal Name, with B. Collaborator</p>
-        </article>
-        <article class="entry">
-          <p class="when">2024 · Project</p>
-          <h3><a href="work.html">Title of a second piece of work you are proud of</a></h3>
-          <p>Course, lab or personal project</p>
-        </article>
-        <article class="entry">
-          <p class="when">2023 · Poster</p>
-          <h3><a href="work.html">Title of a poster, talk or thesis</a></h3>
-          <p>Event or institution name</p>
-        </article>
-      </div>
-      <p class="more"><a href="work.html">All work →</a></p>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section class="section" id="contact" aria-labelledby="contact-h">
-    <div class="wrap" style="text-align:center">
-      <div class="section-head" style="margin-bottom:20px">
-        <h2 id="contact-h">Get in touch</h2>
-        <hr class="short-rule">
-      </div>
-      <p class="prose">Open to collaborations, student enquiries and invitations to speak. The best way to reach me is email.</p>
-      <div class="btn-row">
-        <a class="btn" href="mailto:you@university.edu">you@university.edu</a>
-        <a class="btn btn-line" href="files/cv.pdf">Download CV</a>
-      </div>
-    </div>
-  </section>
+<header class="hero">
+<figure class="portrait"><img src="images/portrait.jpg" alt="Portrait of Ha Thu Nguyen" width="839" height="1121"></figure>
+<h1>Ha Thu Nguyen</h1>
+<p class="kicker">Psychology · Hai Phong, Vietnam</p>
+<hr class="short-rule">
+<p class="statement">I’m a psychology graduate and researcher studying <strong>how family bonds and early experiences connect to mental health</strong> from young adults to older adults.</p>
+<ul class="profile-links"><li><a href="https://www.researchgate.net/profile/Ha-Nguyen-802">ResearchGate</a></li><li><a href="https://orcid.org/0009-0009-4614-728X">ORCID</a></li><li><a href="https://scholar.google.com/citations?user=QVteGF8AAAAJ">Scholar</a></li><li><a href="https://www.webofscience.com/wos/author/record/MAI-2330-2025">Web of Science</a></li><li><a href="files/cv.pdf">CV</a></li><li><a href="mailto:ntha.psy.92@gmail.com">Email</a></li></ul>
+</header>
+<section class="section" aria-labelledby="work-h">
+<div class="wrap">
+<div class="section-head">
+<h2 id="work-h">What I work on</h2>
+<hr class="short-rule">
+</div>
+<div class="cols3">
+<article class="col">
+<h3>Attachment and early adversity</h3>
+<p>How adverse childhood experiences and parental attachment relate to the mental health of young adults. My thesis asks this question; two ongoing studies look at father involvement and maternal attachment.</p>
+<div class="tags"><span class="tag">Attachment</span><span class="tag">Adverse childhood experiences</span><span class="tag">Young adults</span></div>
+</article>
+<article class="col">
+<h3>Help-seeking and student well-being</h3>
+<p>How mental health literacy, perceived need for care and information-seeking habits relate to students’ well-being and their attitudes toward professional help.</p>
+<div class="tags"><span class="tag">Mental health literacy</span><span class="tag">Help-seeking</span><span class="tag">Students</span></div>
+</article>
+<article class="col">
+<h3>Clinical assessment in hospitals</h3>
+<p>Screening and supporting patients in hospital settings, from DASS-21 and PSQI interviews on inpatient wards to a study of psychological distress in older patients with chronic disease.</p>
+<div class="tags"><span class="tag">DASS-21</span><span class="tag">PSQI</span><span class="tag">Older adults</span></div>
+</article>
+</div>
+<p class="more"><a href="research.html">All research →</a></p>
+</div>
+</section>
+<section class="section tint" aria-labelledby="sel-h">
+<div class="wrap">
+<div class="section-head">
+<h2 id="sel-h">Selected work</h2>
+<hr class="short-rule">
+</div>
+<div class="entries">
+<article class="entry">
+<p class="when">In progress · Paper</p>
+<h3><a href="work.html">The role of social anxiety dimensions in the association between adverse childhood experiences and depressive symptoms in Vietnam</a></h3>
+<p>Ianna Journal of Interdisciplinary Studies, with N.-H. Hoang and colleagues</p>
+</article>
+<article class="entry">
+<p class="when">2026 · Thesis</p>
+<h3><a href="work.html">Associations between adverse childhood experiences and parental attachment among young adults</a></h3>
+<p>B.S. thesis, Ho Chi Minh City University of Education</p>
+</article>
+<article class="entry">
+<p class="when">2023 · Paper</p>
+<h3><a href="work.html">The relationship between negative information-seeking behavior and psychological well-being of students</a></h3>
+<p>Vietnam Journal of Psychology, with L. D. Hung, N. B. Thoa and N. T. T. Tran</p>
+</article>
+</div>
+<p class="more"><a href="work.html">All work →</a></p>
+</div>
+</section>
+<section class="section" id="contact" aria-labelledby="contact-h">
+<div class="wrap">
+<div class="section-head" style="margin-bottom:20px">
+<h2 id="contact-h">Get in touch</h2>
+<hr class="short-rule">
+</div>
+<p class="prose" style="text-align:center">Open to research collaborations and questions about my work. The best way to reach me is email.</p>
+<div class="btn-row"><a class="btn" href="mailto:ntha.psy.92@gmail.com">ntha.psy.92@gmail.com</a><a class="btn btn-line" href="files/cv.pdf">Download CV</a></div>
+</div>
+</section>
 </main>
-
 <footer class="foot">
-  <a href="index.html">© 2026 Alex Morgan</a>
-  <button type="button" class="toggle" data-theme-toggle aria-pressed="false"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span data-theme-label>Dark</span></button>
-  <a href="https://github.com/tuannguyen8390/sciencefolio" rel="noopener">Built with Sciencefolio</a>
+<a href="index.html">© 2026 Ha Thu Nguyen</a>
+<button type="button" class="toggle" data-theme-toggle aria-pressed="false"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span data-theme-label>Dark</span></button>
+<a href="https://github.com/tuannguyen8390/sciencefolio" rel="noopener">Built with Sciencefolio</a>
 </footer>
-
 </body>
 </html>
